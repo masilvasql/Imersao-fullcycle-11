@@ -4,5 +4,5 @@ WORKDIR /go/app
 
 RUN apt-get update && apt-get install -y librdkafka-dev
 
-EXPOSE 8080
+EXPOSE 8081
 CMD ["tail", "-f", "/dev/null"]
