@@ -1,4 +1,4 @@
-import { AppBar, Box, Toolbar } from "@mui/material"
+import { AppBar, Avatar, Box, Chip, Toolbar } from "@mui/material"
 import Button from "@mui/material/Button"
 import Image from "next/image"
 import Link, { LinkProps } from "next/link"
@@ -59,6 +59,7 @@ export const NavBar = () => {
                             Jogo
                         </NavbarItem>
                     </Box>
+                    <Chip label={'300'} avatar={<Avatar>C$</Avatar>} color="secondary"/>
                 </Toolbar>
             </AppBar>
         </Box>
