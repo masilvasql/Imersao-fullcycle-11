@@ -30,7 +30,7 @@ export type Player = {
     team_b: string; //Argentina
     result: string; //'1-0'
     //score: number;
-    actions: Action[];
+     actions: Action[];
   };
   
   export const TeamsImagesMap: { [key: string]: string } = {
